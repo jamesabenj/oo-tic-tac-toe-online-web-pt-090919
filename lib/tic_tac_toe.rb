@@ -60,7 +60,7 @@ def turn
     display_board
   else 
     puts "Please enter a valid position"
-    input = gets
+    turn 
   end 
 end 
 
