@@ -132,7 +132,7 @@ def play
     turn 
   end 
   if won?
-    puts "Congratulations, #{winner} wins!"
+    puts "Congratulations #{winner}!"
   elsif draw?
   puts "The game is a draw!"
   end 
